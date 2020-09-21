@@ -61,3 +61,52 @@ h2 {
     margin: 0 auto;
     color: #3d4246;
 }
+
+#options h3 {
+    font-family: 'Libre Caslon Display', serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+table {
+    text-align: center;
+    width: 50vw;
+    margin: 50px auto;
+    border-spacing: 20px;
+
+}
+
+thead {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+tr:first-of-type td {
+    padding-bottom: 40px;
+}
+
+tr:nth-of-type(2) td {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+tr:nth-of-type(1) td , tr:nth-of-type(3) td , tr:nth-of-type(4) td , tr:nth-of-type(5) td {
+    font-family: 'Open Sans', sans-serif;
+    color: #3d4246;
+}
+
+#table-button {
+    font-family: 'Libre Caslon Display', serif;
+    background: #3d4246;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 60%;
+    margin: 0 auto;
+}
